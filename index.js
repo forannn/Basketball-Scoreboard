@@ -16,13 +16,13 @@ container.addEventListener("click", function (event) {
     hPoint += 3;
     homePoint.textContent = hPoint;
   } else if (event.target.id === "guest-increase-one") {
-    gPoint += 2;
+    gPoint += 1;
     guestPoint.textContent = gPoint;
   } else if (event.target.id === "guest-increase-two") {
     gPoint += 2;
     guestPoint.textContent = gPoint;
   } else if (event.target.id === "guest-increase-three") {
-    gPoint += 2;
+    gPoint += 3;
     guestPoint.textContent = gPoint;
   } else {
     console.log(100);

@@ -1,16 +1,64 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div>
-                <h3>HOME</h3>
-            </div>
-            <div>
-                <h3>GUEST</h3>
-            </div>
+  <head lang="en">
+    <title>Basketball counter</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <section>
+        <div>
+          <h3>HOME</h3>
+          <div class="point-container">
+            <p id="home-point">0</p>
+          </div>
+          <button id="increase-one" type="button" aria-label="increase by 1">
+            +1
+          </button>
+          <button id="increase-two" type="button" aria-label="increase by 2">
+            +2
+          </button>
+          <button id="increase-three" type="button" aria-label="increase by 3">
+            +3
+          </button>
         </div>
-        <script src="index.js"></script>
-    </body>
+      </section>
+
+      <section>
+        <div>
+          <h3>GUEST</h3>
+          <div class="point-container">
+            <p id="guest-point">0</p>
+          </div>
+          <button
+            id="guest-increase-one"
+            type="button"
+            aria-label="increase by 1"
+          >
+            +1
+          </button>
+          <button
+            id="guest-increase-two"
+            type="button"
+            aria-label="increase by 2"
+          >
+            +2
+          </button>
+          <button
+            id="guest-increase-three"
+            type="button"
+            aria-label="increase by 3"
+          >
+            +3
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
